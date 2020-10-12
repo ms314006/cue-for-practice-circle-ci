@@ -14,5 +14,5 @@ test("When I click button the title will change to 「當前點擊次數：1」"
   await fireEvent.click(getByText("點我加 1"));
 
   const title = getByTestId("counterInformation");
-  expect(title.innerHTML).toBe("當前點擊次數：1");
+  expect(title.innerHTML).toBe("當前點擊次數：2");
 });
