@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p data-testId="counterInformation">當前點擊次數：{{ count }}</p>
+    <p data-testId="counterInformation">新當前點擊次數：{{ count }}</p>
     <button @click="increment">
       點我加 1
     </button>
